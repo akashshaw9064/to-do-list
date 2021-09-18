@@ -1,0 +1,31 @@
+body{
+    font-family:'Georgia',sans-serif !important;
+    background: #f1f1f1;
+}
+
+.todo-item{
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+}
+.footer-style{
+  padding-bottom: 5px;
+  margin-top: 5vh;
+  padding-top: 15px;
+  left:0;
+  bottom:0;
+  position :fixed;
+  width: 100%;
+  background-color: #3a8ee7;
+  color: black;
+}
+* {
+    box-sizing: border-box;
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
